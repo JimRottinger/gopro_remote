@@ -12,7 +12,9 @@
   "dependencies": {
     "when": "~2.1.0",
     "request": "~2.21.0",
-    "cheerio": "~0.11.0"
+    "cheerio": "~0.11.0",
+    "express": "3.x",
+    "socket.io": "0.9.16"
   },
   "devDependencies": {
     "mocha": "~1.9.0"

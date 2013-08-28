@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>fr dish cam</title>
+    <link rel='stylesheet' href="/css/main.css" />
+
+    <script src="/socket.io/socket.io.js")></script>
+
+      <script>
+        var socket = io.connect('http://localhost:8080');
+        socket.on('connect', function() {
+          $("body").on("click",".record_button", function(e){
+            socket.emit("action", "record");
+          });
+          $("body").on("click",".stop_button", function(e){
+            socket.emit("action", "stop");
+          });
+        });    
+      </script>    
+  </head>
+  
+  <body>
+    
+    <div class="header">
+      <p>we hope you had a lovely meal. kindly wash your dishes.</p>
+    </div>
+
+<!--     <video src='http://10.5.5.9:8080/live/aaba.m3u8' height="auto" width="100%">
+      Your browser does not support the HTML5 video element
+    </video> -->
+
+  <div class="record_button">
+      <p>record</p>
+  </div>
+
+  <div class="stop_button">
+      <p>stop</p>
+  </div>
+
+  </body>
+
+</html>

@@ -3,7 +3,7 @@ var Camera = require('../index').Camera
 var fsPath = require('path')
 var fs = require('fs')
 
-var camera = new Camera('10.5.5.9', 'jambikassu')
+var camera = new Camera('10.5.5.9', 'frbjb007')
 
 function sleep(ms) {
 	var dfd = when.defer()

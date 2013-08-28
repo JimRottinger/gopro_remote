@@ -2,7 +2,7 @@ var when = require('when')
 var poll = require('when/poll')
 var Camera = require('../index').Camera
 
-var cam = new Camera('10.5.5.9', 'jambikassu')
+var cam = new Camera('10.5.5.9', 'frbjb007')
 
 cam
 .powerOn()
