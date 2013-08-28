@@ -1,3 +1,6 @@
+Remote GoPro Hero3 Controller
+==============================
+
 <p>Builds off of the gopro API developed by kschzt: https://github.com/kschzt/gopro</p>
 
 <p>Requires node.js to be installed on your machine</p>
