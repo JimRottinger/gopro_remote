@@ -1,5 +1,5 @@
 var Camera = require('./index').Camera
-var cam = new Camera('10.5.5.9', 'frbjb007')
+var cam = new Camera('10.5.5.9', 'password_here')
 var http = require ('http');
 var express = require('express');
 var url = require('url');
